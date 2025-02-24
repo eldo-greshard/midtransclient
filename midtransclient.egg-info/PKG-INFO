@@ -1,0 +1,19 @@
+Metadata-Version: 2.2
+Name: midtransclient
+Version: 0.1.0
+Summary: A reusable Midtrans client for Django projects
+Home-page: https://github.com/yourusername/midtransclient
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: django
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
