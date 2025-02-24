@@ -61,10 +61,10 @@ class MidtransClient:
             "item_details": item_details,
         }
 
-        if self.DEFAULT_ENABLED_PAYMENTS is not False:
+        if self.DEFAULT_ENABLED_PAYMENTS:
             payload["enabled_payments"] = self.DEFAULT_ENABLED_PAYMENTS
 
-        if self.DEFAULT_INSTALLMENT_TERMS is not False:
+        if self.DEFAULT_INSTALLMENT_TERMS:
             payload["credit_card"] = {
                 "secure": True,
                 "bank": "bca",
