@@ -27,3 +27,8 @@ export MIDTRANS_BASE_URL='https://api.sandbox.midtrans.com/v1/payment-links'
 ```
 ## Site domain
 You need to set your site domain name in django admin page, so the callback will redirect to your site.
+
+
+### Midtrans links
+- https://docs.midtrans.com/docs/payment-link-api-reference
+- https://simulator.sandbox.midtrans.com/
